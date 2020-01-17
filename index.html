@@ -1,1 +1,195 @@
-Anjelika's DREU Website
+<!DOCTYPE html>
+<html lang="en">
+<title>Anjelika's DREU Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <div class="w3-bar-item">Anjelika's DREU Experience, Summer 2019</div>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+
+  <a class="w3-bar-item w3-button w3-hover-black" href="#about-me">About Me</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#about-shiri">About My Mentor</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#project">My Project</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#journal">Summer Journal</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#report">Final Report</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64" id="about-me">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">About Me</h1>
+      <p>My name is Anjelika Amog. I am currently an undergraduate student at Cornell University, in the Computing and Information Science Department. 
+      	I am about to enter my 5th year earning a concurrent degree as a Computer Science major in the College of Engineering and a College Scholar in the College of Arts and Sciences. I am planning to graduate in May 2021.
+      </p>
+    </div>
+    <div class="w3-third w3-container w3-center w3-padding-32">
+      <img src="id_photo.jpg" alt="Anjelika" width="150">
+    </div>
+  </div>
+
+  <div class="w3-row" id="about-shiri">
+    <div class="w3-twothird w3-container w3-padding-32">
+      <h1 class="w3-text-teal">About My Mentor</h1>
+      <p>My mentor is Prof. Shiri Azenkot, who is an Assistant Professor at the Jacobs Technion-Cornell Institute at Cornell Tech and in the Information Science field at Cornell University. She is broadly interested in human-computer interaction and accessibility. Prof. Azenkot’s research focuses on enabling people with disabilities to have equal access to information via mobile and wearable devices.</p>
+      <p>You can find her website <a href="http://www.shiriazenkot.com/"><b>here</b></a>.</p>
+    </div>
+    <div class="w3-third w3-container w3-center w3-padding-64">
+      <img src="shiri.png" alt="Prof. Shiri Azenkot" width="150">
+    </div>
+  </div>
+
+  <div class="w3-row" id="project">
+    <div class="w3-container w3-padding-32">
+      <h1 class="w3-text-teal">My Project</h1>
+      <p>I contributed to two different projects this summer. The first is the math special education project, with Zikai Alex Wen, one of Prof. Azenkot's graduate students. Zikai does research on integrating more accessible math e-learning tools in middle school classrooms. In the project that we did together, we analyzed a series of interviews with special education middle school math teachers on their experiences using e-learning tools in the classroom. We were particularly interested in developing design guidelines for e-learning tools that better supported special education teachers in teaching their students and were more accessible to those students.</p>
+      <p>
+      	The three summer interns, Ricardo Peñuela González, Ocean Hurd, and myself, worked on a project to develop guidelines on how to design effective overview descriptions of 3D virtual environments. The goal of the project is to make virtual reality more accessible to blind users. 
+      </p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-32" id="journal">
+    <div class="w3-container">
+      <h1 class="w3-text-teal">Journal</h1>
+      <p>A journal of your project work with weekly entries in which you describe: your results, your findings, your algorithms, your frustrations, etc.</p>
+      <h4>Week 1, June 17-21</h4>
+      <p>	
+      	For my first week, I met with one of Zikai. I completed my IRB training and began learning about qualitative coding in order to help Zikai establish a codebook for a series of interviews with special education middle school math teachers.
+      </p>
+      <h4>Week 2, June 24-29</h4>
+      <p>
+      	Our final summer intern, Ocean Hurd, joined us this week. We had a group lunch to introduce all the interns to the rest of the lab. I continued to help with coding the interview transcripts for Zikai's projects. 
+      </p>
+      <p>
+      	The other interns and I began work on our project together, where we were tasked to develop guidelines on how to design an effective overview of a 3D virtual environment. The goal of the project is to make virtual reality, or VR, more accessible to blind users. We began our literature review.
+      </p>
+      <h4>Week 3, July 1-5</h4>
+      <p>
+      	We continued to do our literature review for the VR accessibility project. We refined our search, focusing on previous work on the hierarchy of spatial awareness and the language for describing spaces. We established some preliminary guidelines for effective overview descriptions of virtual environments. 
+      </p>
+      <p>
+      	For Zikai's math special education project, I countinued to consolidate individual codes into themes. We established our final codebook.
+      </p>
+      <h4>Week 4, July 8-12</h4>
+      <p>
+      	For the math special education project, we finished coding all of the remaining interviews with the finalized codebook. Zikai and I also worked to complete a poster submission for the ASSETS conference. 
+      </p>
+      <p>
+      	The other interns and I joined the monthly mixed reality (XR) meeting, where another lab at Cornell Tech led by Prof. Harald Haraldsson hosted visiting researchers from NYU's XR lab. We also toured the VR lab for the first time. 
+      </p>
+      <p>
+      	With our mentor, all three interns discusses a possible user study we would conduct to test prototyped overview descriptions based on our guidelines. At the end of the week, we began compiling materials required to apply for IRB approval. We also began prototyping overview descriptions based on our preliminary guidelines.
+      </p>
+      <h4>Week 5, July 15-19</h4>
+      <p>
+      	The other interns and I volunteered and attended the XRAccess Symposium. We began working on our user study protocol drafting possible questions we would want to ask. We finalized and submitted our IRB application.
+      </p>
+      <h4>Week 6, July 22-26</h4>
+      <p>
+      	We refined our evaluation metrics for an "effective" overview description, which we defined to be one that both clearly communicated necessary information to navigate and interact with virtual spaces as well as contributed to an immersive experience. We continued to revise our study protocol, placing particular focus on defining "immersion" and how we would test for it. We also further defined what kinds of virtual environments we could use for our user studies, perusing the Unity store for ideas.
+      </p>
+      <h4>Week 7, July 29-August 2</h4>
+      <p>
+      	Lei Shi, one of the graduate students in our lab, defended his thesis at the beginning of the week. All three of us interns joined Lei and Zikai for dinner in celebration later that evening.
+      </p>
+      <p>
+      	We were also able to tour the maker lab that week for a fabrication learning session with Lei. We began piloting the questions we came up with for our study protocol.
+      </p>
+      <p>
+      	For the math special education project, I compiled quotes and grouped them into particular sections of our outline for an expanded version of the ASSETS poster. 
+      </p>
+      <h4>Week 8, August 5-9</h4>
+      <p>
+      	We attended an A11y meetup where our mentor was invited to speak about her work on interactive 3D models for students with visual impairments. We chose virtual environments for our user studies. I looked through the Unity store and presented ideas for virtual environments to Ocean, who added simple interaction tasks.
+      </p>
+      <h4>Week 9, August 12-16</h4>
+      <p>
+      	We had a group lunch celebrating Lei's successful thesis defense, as well as to say goodbye to Ricardo, one of our interns. We continued refining our study protocol. I began to draft sections of a paper detailing our findings. 
+      </p>
+      <h4>Week 10, August 19-23</h4>
+      <p>
+      	For the math special education project, Zikai and I revised our outline for the paper expanding on our ASSETS poster.
+      </p>
+      <p>
+      	We conducted a series of pilot studies throughout most of the week. With our IRB application approved as of that Thursday, we conducted four back-to-back user studies on my final day.
+      </p>
+    </div>
+  </div>
+  
+    <div class="w3-row w3-padding-16" id="report">
+    <div class="w3-container">
+      <h1 class="w3-text-teal">Final Report</h1>
+      <p>My final report will be linked here.</p>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-16">
+    <h4>Summer 2019 DREU through the Computing Research Association</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
